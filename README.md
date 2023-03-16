@@ -2,8 +2,8 @@ Implementations CNE 370 Real world final project.
 this is the reall world projet builed an app in docker-compose that se up a sharded database using Maxscale server that runing in two master server Maxscale_maser_1 and  Maxscale_maser_2
 
 ## Ubuntu terminal and installing the docker community edition
-khalid@ubuntu0:~$ sudo apt update
-khalid@ubuntu0:~$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+khalid@ubuntu0:~$  sudo apt update
+khalid@ubuntu0:~$  sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 khalid@ubuntu0:~$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 khalid@ubuntu0:~$ sudo apt update
