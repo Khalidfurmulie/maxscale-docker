@@ -2,12 +2,14 @@ Implementations CNE 370 Real world final project.
 this is the reall world projet builed an app in docker-compose that se up a sharded database using Maxscale server that runing in two master server Maxscale_maser_1 and  Maxscale_maser_2
 
 ## Ubuntu terminal and installing the docker community edition
- sudo apt update
+
+sudo apt update
  sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
- sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
  sudo apt update
  sudo apt install docker-ce
+
 
 
 ## check docker status with should enalbe 
@@ -101,6 +103,9 @@ $ docker-compose exec maxscale maxctrl list servers
 │ server3 │ slave2  │ 3306 │ 0           │ Running         │ 0-3000-5 │
 └─────────┴─────────┴──────┴─────────────┴─────────────────┴──────────┘
 
+ the bellow command to access databases:
+
+mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
 
 Refrences Dr. Zak recoded videos https://rtc.instructure.com/courses/2311463/modules/items/70372910 
 https://docs.docker.com/compose/install/
