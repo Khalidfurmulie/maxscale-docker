@@ -40,7 +40,7 @@ Pulling master (mariadb:10.3)...
 
 
 ##Set up and clone maxscale-docker repository 
-khalid@ubuntu0:~/reall_world$ git clone https://github.com/Zohan/maxscale-docker.git
+khalid@ubuntu0:~/reall_world$     git clone https://github.com/Zohan/maxscale-docker.git
 
 Cloning into 'maxscale-docker'...
 
