@@ -81,7 +81,6 @@ maxscale_maxscale_1 is up-to-date
 
 
 
-
 ## Now edit the docker-compose.yml in maxscale directory
 
 nano docker-compose.yml
@@ -116,8 +115,6 @@ Refrences Dr. Zak recoded videos https://rtc.instructure.com/courses/2311463/mod
 
 https://docs.docker.com/compose/install/
 
-<<<<<<< HEAD
-=======
 https://github.com/Zohan/maxscale-docker
 
 >>>>>>> de0b9cd8f2f5b754ac260eb52743e172d32bd270
