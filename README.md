@@ -117,7 +117,7 @@ https://docs.docker.com/compose/install/
 
 https://github.com/Zohan/maxscale-docker
 
->>>>>>> de0b9cd8f2f5b754ac260eb52743e172d32bd270
+de0b9cd8f2f5b754ac260eb52743e172d32bd270
 https://mariadb.com/kb/en/mariadb-maxscale-25-simple-sharding-with-two-servers/
 
 
