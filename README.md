@@ -115,7 +115,11 @@ $ docker-compose exec maxscale maxctrl list servers
 mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
 
 Refrences Dr. Zak recoded videos https://rtc.instructure.com/courses/2311463/modules/items/70372910 
+
 https://docs.docker.com/compose/install/
+
+https://github.com/Zohan/maxscale-docker
+
 https://mariadb.com/kb/en/mariadb-maxscale-25-simple-sharding-with-two-servers/
 
 
