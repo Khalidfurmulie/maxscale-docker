@@ -96,8 +96,6 @@ once the example.cnf file edited, create SQL shard files inside the master direc
 
 Use the following command to list the servers
 
-
-
 $ docker-compose exec maxscale maxctrl list servers
 ┌─────────┬─────────┬──────┬─────────────┬─────────────────┬──────────┐
 │ Server  │ Address │ Port │ Connections │ State           │ GTID     │
