@@ -4,10 +4,15 @@ this is the reall world projet builed an app in docker-compose that se up a shar
 ## Ubuntu terminal and installing the docker community edition
 
 sudo apt update
+
  sudo apt install apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg |sudo apt-key add -
+
+
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
  sudo apt update
+ 
  sudo apt install docker-ce
 
 
@@ -18,6 +23,7 @@ sudo systemctl status docker.
 
 ## configured  Docker Compose, MariaDB
  sudo apt install docker-compose.
+ 
  sudo apt install MariaDB-client.
 
 
@@ -34,7 +40,7 @@ Pulling master (mariadb:10.3)...
 
 
 ##Set up and clone maxscale-docker repository 
-khalid@ubuntu0:~/reall_world$ git clone https://github.com/Zohan/maxscale-docker.git
+khalid@ubuntu0:~/reall_world$     git clone https://github.com/Zohan/maxscale-docker.git
 
 Cloning into 'maxscale-docker'...
 
@@ -90,8 +96,6 @@ once the example.cnf file edited, create SQL shard files inside the master direc
 
 Use the following command to list the servers
 
-
-
 $ docker-compose exec maxscale maxctrl list servers
 ┌─────────┬─────────┬──────┬─────────────┬─────────────────┬──────────┐
 │ Server  │ Address │ Port │ Connections │ State           │ GTID     │
@@ -112,6 +116,11 @@ Refrences Dr. Zak recoded videos https://rtc.instructure.com/courses/2311463/mod
 
 https://docs.docker.com/compose/install/
 
+<<<<<<< HEAD
+=======
+https://github.com/Zohan/maxscale-docker
+
+>>>>>>> de0b9cd8f2f5b754ac260eb52743e172d32bd270
 https://mariadb.com/kb/en/mariadb-maxscale-25-simple-sharding-with-two-servers/
 
 
