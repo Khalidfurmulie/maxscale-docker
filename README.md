@@ -99,7 +99,6 @@ Use the following command to list the servers
 
 
 $ docker-compose exec maxscale maxctrl list servers
-
 ┌─────────┬─────────┬──────┬─────────────┬─────────────────┬──────────┐
 │ Server  │ Address │ Port │ Connections │ State           │ GTID     │
 ├─────────┼─────────┼──────┼─────────────┼─────────────────┼──────────┤
@@ -109,6 +108,7 @@ $ docker-compose exec maxscale maxctrl list servers
 ├─────────┼─────────┼──────┼─────────────┼─────────────────┼──────────┤
 │ server3 │ slave2  │ 3306 │ 0           │ Running         │ 0-3000-5 │
 └─────────┴─────────┴──────┴─────────────┴─────────────────┴──────────┘
+
 
  the bellow command to access databases:
 
