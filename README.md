@@ -23,6 +23,7 @@ sudo systemctl status docker.
 
 ## configured  Docker Compose, MariaDB
  sudo apt install docker-compose.
+ 
  sudo apt install MariaDB-client.
 
 
