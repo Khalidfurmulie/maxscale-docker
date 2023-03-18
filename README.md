@@ -4,10 +4,15 @@ this is the reall world projet builed an app in docker-compose that se up a shar
 ## Ubuntu terminal and installing the docker community edition
 
 sudo apt update
+
  sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
  sudo apt update
+ 
  sudo apt install docker-ce
 
 
@@ -93,6 +98,7 @@ Use the following command to list the servers
 
 
 $ docker-compose exec maxscale maxctrl list servers
+
 ┌─────────┬─────────┬──────┬─────────────┬─────────────────┬──────────┐
 │ Server  │ Address │ Port │ Connections │ State           │ GTID     │
 ├─────────┼─────────┼──────┼─────────────┼─────────────────┼──────────┤
