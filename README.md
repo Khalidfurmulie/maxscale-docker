@@ -21,11 +21,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo systemctl status docker.
 
-## configured  Docker Compose, MariaDB
- sudo apt install docker-compose.
- 
- sudo apt install MariaDB-client.
- 
  ### Running
  
 Run and pull the MaxScale
@@ -34,9 +29,13 @@ docker pull mariadb/maxscale:latest
 
 docker run -d --name mxs mariadb/maxscale:latest
 
+## configured  Docker Compose, MariaDB
+ sudo apt install docker-compose.
+ 
+ sudo apt install MariaDB-client.
+ 
 
-
-#### docker-compose up -d
+docker-compose up -d
 khalid@ubuntu0:~/reall_world/maxscale-docker/maxscale$ sudo docker-compose up
 
 Creating network "maxscale_default" with the default driver
