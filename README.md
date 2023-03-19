@@ -25,6 +25,15 @@ sudo systemctl status docker.
  sudo apt install docker-compose.
  
  sudo apt install MariaDB-client.
+ 
+ ### Running
+ 
+Run and pull the MaxScale
+
+docker pull mariadb/maxscale:latest
+
+docker run -d --name mxs mariadb/maxscale:latest
+
 
 
 #### docker-compose up -d
