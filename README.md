@@ -23,13 +23,17 @@ sudo systemctl status docker.
 
  ### Running
  
-Run and pull the MaxScale
+Run and pull  the latest version of MariaDB MaxScale for client 
+
+Sudo apt install MariaDB-client
+
 
 docker pull mariadb/maxscale:latest
 
 docker run -d --name mxs mariadb/maxscale:latest
 
 ## configured  Docker Compose, MariaDB
+
  sudo apt install docker-compose.
  
  sudo apt install MariaDB-client.
@@ -67,7 +71,9 @@ Resolving deltas: 100% (113/113), done.
 ### to run the docker-compose up you must be in right directory "maxscale-docker/maxscale"
 docker-compose up -d
 Starting maxscale_master_1 ... done
+
 Starting maxscale_master2_1 ... done
+
 Starting maxscale_maxscale_1 ... done
 
 
@@ -104,7 +110,11 @@ once the example.cnf file edited, create SQL shard files inside the master direc
 Use the following command to list the servers
 
 $ docker-compose exec maxscale maxctrl list servers
-┌─────────┬─────────┬──────┬─────────────┬─────────────────┬──────────┐
+
+|
+┌─────────┬─────────┬──────┬─────────────┬─────────────────┬──────────
+
+┐
 │ Server  │ Address │ Port │ Connections │ State           │ GTID     │
 ├─────────┼─────────┼──────┼─────────────┼─────────────────┼──────────┤
 │ server1 │ master  │ 3306 │ 0           │ Master, Running │ 0-3000-5 │
