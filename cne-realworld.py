@@ -1,3 +1,12 @@
+#  Name: khalid Furmulie, Class CNE 370, instractor Dr. Zachary "Zak" Rubin  Email: kfurmulie@student.rtc.edu, Date: 3/21/2023
+#  code description,  builed an app in docker-compose that se up a sharded database using Maxscale server
+# that runing in two master server Maxscale_maser_1 and Maxscale_maser_2 
+# Rsult of this code print the out put of zipcodes.
+# The largest zipcode in zipcodes_one
+# The last 10 rows of zipcodes_one
+# The first 10 rows of zipcodes_two
+# The smallest zipcode in zipcodes_two
+
 import pymysql
 db = pymysql.connect(host="10.0.0.39", port=4000, user="maxuser", passwd="maxpwd")
 cursor = db.cursor()
