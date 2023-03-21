@@ -111,10 +111,7 @@ Use the following command to list the servers
 
 $ docker-compose exec maxscale maxctrl list servers
 
-|
-┌─────────┬─────────┬──────┬─────────────┬─────────────────┬──────────
-
-┐
+┌─────────┬─────────┬──────┬─────────────┬─────────────────┬─────────
 │ Server  │ Address │ Port │ Connections │ State           │ GTID     │
 ├─────────┼─────────┼──────┼─────────────┼─────────────────┼──────────┤
 │ server1 │ master  │ 3306 │ 0           │ Master, Running │ 0-3000-5 │
